@@ -36,6 +36,6 @@ function sum(data) {
 //
 //	alert(sum(data));
 //}
-
-module.exports = sum;
 export { sum };
+module.exports = sum;
+
