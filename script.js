@@ -38,3 +38,4 @@ function sum(data) {
 //}
 
 module.exports = sum;
+export { sum };
