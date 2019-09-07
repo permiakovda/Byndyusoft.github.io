@@ -29,13 +29,12 @@ function sum(data) {
 
 }
 
-//document.querySelector("button").onclick = function () {
-//	let data = document.querySelector("#expression").value; // Записываем строку с исходными данными
-//
-//	data = data.split(",").map(Number); // преобразование строки в массив данных разделителем выступает запятая
-//
-//	alert(sum(data));
-//}
-export default { sum };
-module.exports = sum;
+document.querySelector("button").onclick = function () {
+	let data = document.querySelector("#expression").value; // Записываем строку с исходными данными
 
+	data = data.split(",").map(Number); // преобразование строки в массив данных разделителем выступает запятая
+
+	alert(sum(data));
+}
+
+module.exports = sum;

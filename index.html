@@ -13,21 +13,7 @@
 	<button>Рассчитать</button>
 
 </body>
-<!--<script src="script.js"></script>-->
 
-<script type="module">
-	//const sum = require('./script');
-	import {sum} from './script.js';
-		
-	document.querySelector("button").onclick = function () {
-		let data = document.querySelector("#expression").value; // Записываем строку с исходными данными
-
-		data = data.split(",").map(Number); // преобразование строки в массив данных разделителем выступает запятая
-
-		alert(sum(data));
-	}
-	
-</script>
-
+<script src="script.js"></script>
 
 </html>
