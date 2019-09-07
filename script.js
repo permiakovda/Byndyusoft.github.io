@@ -36,6 +36,6 @@ function sum(data) {
 //
 //	alert(sum(data));
 //}
-export { sum };
+export default { sum };
 module.exports = sum;
 
